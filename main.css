@@ -27,18 +27,26 @@ background-color: #6EABDD;
             width: 40%;
             background-color: #009BDD;
             padding: 40px;
+            color: #FFFFFF;
+            width: 40%px;
+            height: 440px;
+            margin-top: 30px;
+            background-image: url(./kaire.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            /* cover - pildo visa, contain pildo tmx koks paveikslelis */
+
         }
         .title{
-
         }
         .footer{
-
         }
             .link{
-
+             color: #FFFFFF
             }
             .amp{
-                
+            color: #FFFFFF    
             }
 
         .right-column{
@@ -76,13 +84,14 @@ background-color: #6EABDD;
                     display: inline-block;
                     width: 100%;
                     font-size: 20px;
-                    /* alternatyva */
+
+                    border: none;
+                    border-bottom: 1px solid #777;
+                     /* alternatyva */
                     /* border-left: none; */
                     /* border-right: none; */
                     /* border-top: none; */
                     /* border-bottom-color: red; */
-                    border: none;
-                    border-bottom: 1px solid #777;
                 }
                 .btn{
                     display: inline-block;
