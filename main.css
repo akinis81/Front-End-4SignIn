@@ -47,30 +47,65 @@ background-color: #6EABDD;
             width: 60%;
             background-color:#FFFFFF;
             padding: 60px;
+            
         }
             .close{
 
             }
             .form{
-
+                display: inline-block;
+                width: 100%;
             }
                 .form-row{
-
+                    display: inline-block;
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
+                .form-row:last-of-type{
+                    margin-bottom: 0;
                 }
                 label{
-
+                    display: inline-block;
+                    width: 100%;
+                    margin-bottom: 5px;
+                    color: #777;
+                    text-transform: uppercase;
+                    font-size: 16px;
                 }
                 input{
-
+                    display: inline-block;
+                    width: 100%;
+                    font-size: 20px;
+                    /* alternatyva */
+                    /* border-left: none; */
+                    /* border-right: none; */
+                    /* border-top: none; */
+                    /* border-bottom-color: red; */
+                    border: none;
+                    border-bottom: 1px solid #777;
                 }
                 .btn{
+                    display: inline-block;
+                    background-color: blue;
+                    color: #FFFFFF;
+                    padding: 10px;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    line-height: 20px;
+                    border-radius: 20px;
 
                 }
                 .or{
-
+                    display: inline-block; 
+                    padding-top: 10px;
+                    padding-left: 30px;
+                    padding-right : 30px;
+                    line-height: 20px;   
                 }
                 .blue-link{
-                    
+                    display: inline-block;
+                    padding-top: 10px;
+                    line-height: 20px;   
                 }
 
 
